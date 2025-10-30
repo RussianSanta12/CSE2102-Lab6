@@ -1,0 +1,9 @@
+/workspaces/CSE2102-Lab6/src/main/java/com/example/demo/DemoApplication.java
+/workspaces/CSE2102-Lab6/src/main/java/com/example/demo/controller/EmailController.java
+/workspaces/CSE2102-Lab6/src/main/java/com/example/demo/controller/PasswordController.java
+/workspaces/CSE2102-Lab6/src/main/java/com/example/demo/dto/EmailRequest.java
+/workspaces/CSE2102-Lab6/src/main/java/com/example/demo/dto/EmailResponse.java
+/workspaces/CSE2102-Lab6/src/main/java/com/example/demo/dto/PasswordRequest.java
+/workspaces/CSE2102-Lab6/src/main/java/com/example/demo/dto/PasswordResponse.java
+/workspaces/CSE2102-Lab6/src/main/java/com/example/demo/service/EmailService.java
+/workspaces/CSE2102-Lab6/src/main/java/com/example/demo/service/PasswordService.java

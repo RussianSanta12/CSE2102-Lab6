@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Demo API</title>
+</head>
+<body>
+  <h1>Demo API</h1>
+  <p>Available endpoints:</p>
+  <ul>
+    <li>POST /api/password/quality — JSON { "password": "..." }</li>
+    <li>POST /api/email/validate — JSON { "email": "..." }</li>
+  </ul>
+  <h2>Examples (curl)</h2>
+  <pre>
+  curl -X POST -H "Content-Type: application/json" -d '{"password":"S3cure!Pass"}' http://localhost:8080/api/password/quality
+
+  curl -X POST -H "Content-Type: application/json" -d '{"email":"user@example.com"}' http://localhost:8080/api/email/validate
+  </pre>
+</body>
+</html>
